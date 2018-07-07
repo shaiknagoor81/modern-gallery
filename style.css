@@ -1,0 +1,113 @@
+.header_icon{
+
+    margin-left: 400px;
+}
+
+.header_icon ul li a i{
+    color: #c4c4c4;
+}
+
+.header_icon ul li a i:hover {
+color:white;
+
+}
+
+.navbar-nav{
+    font-weight:  bold;
+    font-size: 14px;
+}
+
+.navbar-nav li{
+    margin: 0 30px;
+}
+.services .navbar-nav .nav-item .nav-link{
+    color: #000;
+}
+
+.services .navbar-nav .nav-item .nav-link:hover{
+    color: #c8a4a8;
+}
+
+.main_section{
+
+    background-image: url(https://livedemo00.template-help.com/wt_prod-16365/images/page-title-2-1920x305.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 18px;
+    width: 100%;
+}
+
+.page-title{
+
+    font-size: 50px;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-weight: 900;
+    font-family: 'Fjalla One', sans-serif;
+}
+.gallery h3{
+    font-size: 48px;
+}
+
+.li_item{
+    color:#c8a4a8;
+    cursor: pointer;
+}
+
+.li_item1{
+    color:#c8a4a8;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.li_item:hover{
+    color: black;
+    
+}
+.li_item1:hover{
+    color: black;
+    
+}
+
+.divider-lg::after{
+
+    content: '';
+    display: inline-block;
+    width: 90px;
+    height: 3px;
+    background-color: #c8a4a8;
+
+}
+
+.portfolio-warp {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.single-portfolio img {
+ 
+	width: 350px;
+	position: relative;
+	float: left;
+	display: block;
+	background-position: center center;
+}
+
+@media(max-width: 576px){
+    .main_section .page-title{
+        font-size: 18px;
+        
+    }
+
+    body ul li{
+        font-size: 13px;
+    }
+
+    .gallery h3{
+        font-size: 24px;
+    }
+}
+ 
